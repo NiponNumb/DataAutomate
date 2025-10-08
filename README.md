@@ -68,6 +68,9 @@ git clone https://github.com/NiponNumb/DataAutomate.git
 cd DataAutomate
 
 # Open and run via Visual Studio 2022 or later
+
+<p align="center">
+<br>
 DataAutomate.sln
 1️⃣ Open the solution
 2️⃣ Choose Debug or Release
@@ -81,23 +84,20 @@ Enter your connection string
 
 SQL Server
 
-text
-Copiar código
+
 Server=HOST,1433;Database=DB;User Id=USER;Password=PASS;TrustServerCertificate=True;
 PostgreSQL
 
-text
-Copiar código
+
+
 Host=HOST;Port=5432;Database=DB;Username=USER;Password=PASS;
 MySQL
 
-text
-Copiar código
+
 Server=HOST;Port=3306;Database=DB;User ID=USER;Password=PASS;
 SQLite
 
-text
-Copiar código
+
 Data Source=C:\path\your.db;
 Steps
 
@@ -116,8 +116,7 @@ Press Extract and watch logs in real-time
 Press Stop anytime to cancel safely
 
 📁 Output Structure
-text
-Copiar código
+
 📂 OutputRoot/
  ├─ public.customers.csv
  ├─ public.orders.csv.gz      # if GZip enabled
@@ -154,3 +153,5 @@ Avoid storing plaintext passwords
 📜 License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
+</br>
+</p>
