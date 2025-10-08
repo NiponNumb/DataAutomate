@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\cleaningandprofiling\\cleaning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\cleaningandprofiling\\cleaning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\runner\\datarunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\runner\\datarunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\utils\\dbutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\utils\\dbutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\writers\\writers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\writers\\writers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|c:\\users\\orope\\desktop\\data_engineer\\dataautomate\\dataautomate\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\dataautomate\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F028EA0-7346-453A-B024-F163F7544330}|DataAutomate\\DataAutomate.csproj|solutionrelative:dataautomate\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataRunner.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Runner\\DataRunner.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\Runner\\DataRunner.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Runner\\DataRunner.cs",
+              "RelativeToolTip": "DataAutomate\\Runner\\DataRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:22:18.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cleaning.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\CleaningAndProfiling\\Cleaning.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\CleaningAndProfiling\\Cleaning.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\CleaningAndProfiling\\Cleaning.cs",
+              "RelativeToolTip": "DataAutomate\\CleaningAndProfiling\\Cleaning.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:21:28.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Writers.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Writers\\Writers.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\Writers\\Writers.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Writers\\Writers.cs",
+              "RelativeToolTip": "DataAutomate\\Writers\\Writers.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:20:06.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Utils\\DbUtils.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\Utils\\DbUtils.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Utils\\DbUtils.cs",
+              "RelativeToolTip": "DataAutomate\\Utils\\DbUtils.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAUwCUBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:17:34.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Model\\Model.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\Model\\Model.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Model\\Model.cs",
+              "RelativeToolTip": "DataAutomate\\Model\\Model.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:16:34.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.cs",
+              "RelativeToolTip": "DataAutomate\\MainForm.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAewBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:13:53.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.Designer.cs",
+              "RelativeToolTip": "DataAutomate\\MainForm.Designer.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:07:29.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Program.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\Program.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\Program.cs",
+              "RelativeToolTip": "DataAutomate\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:07:16.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.cs",
+              "RelativeDocumentMoniker": "DataAutomate\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Orope\\Desktop\\DATA_ENGINEER\\DataAutomate\\DataAutomate\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DataAutomate\\MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:07:03.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
