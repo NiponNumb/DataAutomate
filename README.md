@@ -1,119 +1,156 @@
-DataAutomate
+<h1 align="center">🚀 DataAutomate</h1>
 
-DataAutomate is a desktop utility for data engineers that connects to popular relational databases, lets you browse schemas/tables, and exports data to CSV and Parquet with one click.
-Built with .NET 9 (Windows Forms) and optimized for fast, low-memory extracts using ADO.NET, Dapper and CsvHelper.
+<p align="center">
+  <b>Modern Data Extraction Tool for Engineers</b><br>
+  Extract, transform, and export data from your databases to <b>CSV</b> or <b>Parquet</b> with a single click.<br>
+  Built on <b>.NET 9 (Windows Forms)</b> and optimized for <b>speed</b>, <b>stability</b>, and <b>low memory usage</b>.
+</p>
 
-Author: Jose Alejandro Vazquez Oropeza (GitHub: NiponNumb)
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-.NET%209-blueviolet?logo=csharp">
+  <img src="https://img.shields.io/badge/Platform-Windows-blue">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg">
+  <img src="https://img.shields.io/badge/Status-Stable-success.svg">
+</p>
 
-Features
+---
 
-Multi-database support: mssql, postgres, mysql, sqlite.
+### 👨‍💻 Author  
+**José Alejandro Vázquez Oropeza**  
+GitHub: [@NiponNumb](https://github.com/NiponNumb)
 
-Schema browser: Load catalog, select individual tables to extract.
+---
 
-One-click export:
+## 🌟 Features
 
-CSV output (option to GZip compress).
+- ✅ **Multi-database support:** `mssql`, `postgres`, `mysql`, `sqlite`  
+- ✅ **Schema browser:** visualize and select tables easily  
+- ✅ **One-click export:**  
+  - CSV output (optional GZip compression)  
+  - Parquet output  
+- ✅ **Column sanitization:** clean and portable headers  
+- ✅ **Affix & frequency helpers:** text normalization and tagging  
+- ✅ **Cancelable runs:** stop jobs anytime  
+- ✅ **Real-time UI logging** with clean progress display  
+- ✅ **Structured outputs:** each table = one file  
 
-Parquet output.
+**🪟 UI Controls**  
+Provider selector • Connection string input • Test connection • Load catalog •  
+Tree view for schema • Output folder picker • Extract / Stop buttons •  
+GZip • Parquet • Sanitize • Affix/Frequency Settings  
 
-Column sanitization (optional) for safe, portable headers.
+---
 
-Affix & frequency helpers: configurable text rules to normalize or tag columns (min affix length / min frequency).
+## 💡 Why Use DataAutomate?
 
-Cancelable runs with responsive UI logging.
+- ⚡ **Fast** — lightweight, zero server dependencies  
+- 📊 **Compatible** — perfect CSV/Parquet for analytics (Python, Spark, Power BI)  
+- 🪶 **Portable** — simple Windows app, no setup headaches  
 
-Clear, structured output: one file per table under the chosen output directory.
+---
 
-UI controls include provider dropdown, connection string box, “Test connection”, “Load catalog”, tree view for schema selection, output folder picker, Extract and Stop buttons, plus options for gzip, sanitization, Parquet and affix/frequency settings.
+## 🧩 Requirements
 
-Why use DataAutomate?
+| Requirement     | Version / Info |
+|-----------------|----------------|
+| **OS**          | Windows 10 / 11 |
+| **Framework**   | .NET 9 SDK |
+| **IDE**         | Visual Studio 2022 or newer (optional) |
+| **Network**     | Access to your DB instance(s) |
 
-Fast, no-frills data extraction for analytics and migrations.
+> 💡 You can also run `DataAutomate.exe` directly from  
+> `bin/Debug/net9.0-windows/` if you don't need to rebuild.
 
-Consistent CSV/Parquet outputs ready for downstream tools (Python, Spark, Power BI, etc.).
+## ⚙️ Build & Run
 
-Simple Windows app—no agents or servers needed.
+# Clone the repository
+git clone https://github.com/NiponNumb/DataAutomate.git
+cd DataAutomate
 
-Requirements
+# Open and run via Visual Studio 2022 or later
+DataAutomate.sln
+1️⃣ Open the solution
+2️⃣ Choose Debug or Release
+3️⃣ Click Build → Run
 
-Windows 10/11
+🚀 Quick Start (Usage)
+Select your provider
+Options: mssql, postgres, mysql, sqlite
 
-.NET 9 SDK (for building from source)
-(You can also run the packaged DataAutomate.exe under bin/Debug/net9.0-windows/ if provided.)
+Enter your connection string
 
-Network access to your database(s)
+SQL Server
 
-Build & Run
-
-Clone the repository.
-
-Open DataAutomate.sln in Visual Studio 2022 (or newer).
-
-Select Debug or Release, then Build and Run.
-
-Quick Start (Usage)
-
-Provider: choose mssql, postgres, mysql, or sqlite.
-
-Connection:
-
-SQL Server:
+text
+Copiar código
 Server=HOST,1433;Database=DB;User Id=USER;Password=PASS;TrustServerCertificate=True;
+PostgreSQL
 
-PostgreSQL:
+text
+Copiar código
 Host=HOST;Port=5432;Database=DB;Username=USER;Password=PASS;
+MySQL
 
-MySQL:
+text
+Copiar código
 Server=HOST;Port=3306;Database=DB;User ID=USER;Password=PASS;
+SQLite
 
-SQLite:
+text
+Copiar código
 Data Source=C:\path\your.db;
+Steps
 
-Click Test to validate the connection.
+Click Test to validate the connection
 
-Click Load catalog and select the tables you want (tree view).
+Click Load Catalog to browse tables
 
-Choose Output folder.
+Select the tables you want
 
-(Optional) Enable Sanitize, Parquet, or GZip as needed.
+Choose your Output Folder
 
-Click Extract. Watch progress in the log panel. Use Stop to cancel.
+(Optional) Enable Sanitize, Parquet, or GZip
 
-Outputs
+Press Extract and watch logs in real-time
 
-...\OutputRoot\{schema}.{table}.csv (or .csv.gz if GZip)
+Press Stop anytime to cancel safely
 
-...\OutputRoot\{schema}.{table}.parquet (if Parquet enabled)
+📁 Output Structure
+text
+Copiar código
+📂 OutputRoot/
+ ├─ public.customers.csv
+ ├─ public.orders.csv.gz      # if GZip enabled
+ └─ public.invoices.parquet   # if Parquet enabled
+🧠 Notes & Recommendations
+CSV Encoding: use UTF-8
 
-Notes & Recommendations
+For Excel, enable BOM for accent compatibility
 
-CSV encoding: use UTF-8. If you plan to open directly in Excel, consider enabling a BOM for best accent/diacritics compatibility; for pipelines and code tools, prefer UTF-8 without BOM.
+For pipelines, prefer UTF-8 without BOM
 
-Sanitization helps generate portable header names (e.g., lowercasing, underscores). Keep original names when fidelity is required downstream.
+Sanitize column names for consistent headers
 
-Parquet is columnar and well-suited for analytics workloads; CSV is universally compatible.
+Parquet is ideal for analytics; CSV for interoperability
 
-Roadmap
+🧭 Roadmap
+⏳ Incremental extracts (timestamp/key based)
 
-Incremental extracts (by timestamp/key)
+⏳ Basic WHERE/JOIN filters per table
 
-Basic WHERE/JOIN filters per table
+⏳ Job presets & batch runs
 
-Job definitions & batch runs (saved presets)
+⏳ CLI (headless mode)
 
-CLI mode for headless servers
+⏳ Data profiling summaries per table
 
-Simple data profiling summaries per table
+🔒 Security
+Connection strings are used only at runtime
 
-Security
+Always use least-privilege database credentials
 
-Connection strings are used only at runtime by the app to read your data.
+Avoid storing plaintext passwords
 
-Always use least-privilege DB users and avoid storing credentials in plaintext.
-
-## License
-
-This project is licensed under the **MIT License**.
-
-© 2025 Jose Alejandro Vazquez Oropeza (NiponNumb)
+📜 License
+This project is licensed under the MIT License.
+See the LICENSE file for details.
