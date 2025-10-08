@@ -69,89 +69,97 @@ cd DataAutomate
 
 # Open and run via Visual Studio 2022 or later
 
-<p align="center">
-<br>
+<!-- HEADER --> <p align="center"> <img src="https://img.shields.io/badge/C%23-.NET%209-blueviolet?logo=csharp" alt=".NET 9"> <img src="https://img.shields.io/badge/Platform-Windows-blue" alt="Windows"> <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"> <img src="https://img.shields.io/badge/Status-Stable-success.svg" alt="Status"> </p> <h1 align="center">DataAutomate</h1> <p align="center"> <b>Modern Data Extraction Tool</b><br/> Extract, transform, and export data to <b>CSV</b> or <b>Parquet</b> with a single click. </p> <p align="center"> <a href="#-quick-start">Quick Start</a> · <a href="#-usage">Usage</a> · <a href="#-output-structure">Output</a> · <a href="#-notes--recommendations">Notes</a> · <a href="#-roadmap">Roadmap</a> · <a href="#-security">Security</a> · <a href="#-license">License</a> </p>
+🧩 Solution Setup
 DataAutomate.sln
 1️⃣ Open the solution
 2️⃣ Choose Debug or Release
 3️⃣ Click Build → Run
 
-🚀 Quick Start (Usage)
-Select your provider
-Options: mssql, postgres, mysql, sqlite
+🚀 Quick Start
+Providers
 
-Enter your connection string
+mssql
 
-SQL Server
+postgres
 
+mysql
 
+sqlite
+
+Connection Strings
+<details> <summary><b>SQL Server (mssql)</b></summary>
 Server=HOST,1433;Database=DB;User Id=USER;Password=PASS;TrustServerCertificate=True;
-PostgreSQL
 
-
-
+</details> <details> <summary><b>PostgreSQL (postgres)</b></summary>
 Host=HOST;Port=5432;Database=DB;Username=USER;Password=PASS;
-MySQL
 
-
+</details> <details> <summary><b>MySQL (mysql)</b></summary>
 Server=HOST;Port=3306;Database=DB;User ID=USER;Password=PASS;
-SQLite
 
-
+</details> <details> <summary><b>SQLite (sqlite)</b></summary>
 Data Source=C:\path\your.db;
-Steps
 
-Click Test to validate the connection
+</details>
+🛠 Usage
 
-Click Load Catalog to browse tables
+Select Provider (mssql, postgres, mysql, sqlite)
 
-Select the tables you want
+Enter Connection String
 
-Choose your Output Folder
+Click <kbd>Test</kbd> to validate the connection
+
+Click <kbd>Load Catalog</kbd> to browse tables
+
+Select Tables to extract
+
+Choose Output Folder
 
 (Optional) Enable Sanitize, Parquet, or GZip
 
-Press Extract and watch logs in real-time
+Press <kbd>Extract</kbd> and watch logs in real time
 
-Press Stop anytime to cancel safely
+Press <kbd>Stop</kbd> anytime to cancel safely
 
 📁 Output Structure
-
 📂 OutputRoot/
  ├─ public.customers.csv
  ├─ public.orders.csv.gz      # if GZip enabled
  └─ public.invoices.parquet   # if Parquet enabled
+
 🧠 Notes & Recommendations
-CSV Encoding: use UTF-8
 
-For Excel, enable BOM for accent compatibility
+[!TIP]
+CSV Encoding: use UTF-8. For Excel viewers, enable BOM for proper accents.
+For data pipelines, prefer UTF-8 without BOM.
 
-For pipelines, prefer UTF-8 without BOM
+[!NOTE]
+Sanitize column names for consistent headers across systems.
 
-Sanitize column names for consistent headers
-
-Parquet is ideal for analytics; CSV for interoperability
+[!IMPORTANT]
+Parquet is ideal for analytics (columnar, compressed). CSV maximizes interoperability.
 
 🧭 Roadmap
-⏳ Incremental extracts (timestamp/key based)
 
-⏳ Basic WHERE/JOIN filters per table
+ Incremental extracts (timestamp/key based)
 
-⏳ Job presets & batch runs
+ Basic WHERE / JOIN filters per table
 
-⏳ CLI (headless mode)
+ Job presets & batch runs
 
-⏳ Data profiling summaries per table
+ CLI (headless mode)
+
+ Data profiling summaries per table
 
 🔒 Security
-Connection strings are used only at runtime
 
-Always use least-privilege database credentials
+[!WARNING]
+Connection strings are used only at runtime. Avoid storing plaintext passwords.
 
-Avoid storing plaintext passwords
+Use least-privilege database credentials
+
+Do not commit secrets to source control
 
 📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-</br>
-</p>
+
+Licensed under the MIT License. See LICENSE for details.
