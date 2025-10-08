@@ -114,6 +114,6 @@ Always use least-privilege DB users and avoid storing credentials in plaintext.
 
 ## License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 © 2025 Jose Alejandro Vazquez Oropeza (NiponNumb)
